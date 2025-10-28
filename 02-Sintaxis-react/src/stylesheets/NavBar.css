@@ -1,0 +1,41 @@
+.seccion-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.espacio{
+    width: 100%;
+    height: 5rem;
+}
+
+.contenedor-nav{
+    width: 90%;
+    height: 3.5rem;
+    background-color: rgb(44, 46, 56);
+    border-radius: 15px;
+    display: flex;
+    align-items: center ;
+    justify-content: space-around;
+    gap: 60rem;
+}
+
+.Navegador{
+    display: flex;
+    align-items: center;
+}
+
+h2{
+  text-align: center;    
+}
+
+.btn-mode{
+    background-color: rgba(29, 29, 75, 0.774);
+    color: white;
+    font-size: 30px;
+    border: none;
+    width: 3%;
+    height: 2rem;
+}
