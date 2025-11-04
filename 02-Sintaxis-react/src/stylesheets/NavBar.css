@@ -13,8 +13,8 @@
 
 .contenedor-nav{
     width: 90%;
-    height: 3.5rem;
-    background-color: rgb(44, 46, 56);
+    height: 5rem;
+    background-color: #2f364b;
     border-radius: 15px;
     display: flex;
     align-items: center ;
@@ -32,10 +32,11 @@ h2{
 }
 
 .btn-mode{
-    background-color: rgba(29, 29, 75, 0.774);
+    background-color: #545969;
     color: white;
     font-size: 30px;
     border: none;
-    width: 3%;
-    height: 2rem;
+    border-radius: 7px;
+    width: 4%;
+    height: 3rem;
 }
