@@ -31,7 +31,7 @@ export const App = () => {
         <ExtensionCard
           cardTitle="JSONWizard"
           cardImage="./public/imagen4.svg"
-          cardDescription="Formats, validates, and prettifies JSON responses in-browser."
+          cardDescription="Formats, validates, and prettifies JSON responses."
         />
 
         <ExtensionCard
