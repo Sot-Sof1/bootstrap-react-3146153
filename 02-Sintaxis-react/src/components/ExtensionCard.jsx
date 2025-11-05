@@ -1,15 +1,15 @@
 import "../stylesheets/ExtensionCard.css"
 
 
-export const ExtensionCard = () => {
+export const ExtensionCard = ({cardTitle, cardImage, cardDescription}) => {
   return (
     <>
       <div className="contenedor">
         <div className="contenedor-2">
-          <img src="./public/logo-devlens.svg" alt="" />
+          <img src={cardImage} alt="" />
           <div className="contenedor-textos">
-            <h2>DevLens</h2>
-            <p>Quickly inspect page layouts and visualize element boundaries.</p>
+            <h2>{cardTitle}</h2>
+            <p>{cardDescription}</p>
           </div>
         </div>
 

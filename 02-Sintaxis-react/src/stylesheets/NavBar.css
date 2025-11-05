@@ -1,4 +1,4 @@
-.seccion-principal{
+.seccion-principal {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -6,32 +6,33 @@
 }
 
 
-.espacio{
+.espacio {
     width: 100%;
     height: 5rem;
 }
 
-.contenedor-nav{
-    width: 90%;
+.contenedor-nav {
+    width: 80%;
     height: 5rem;
     background-color: #2f364b;
     border-radius: 15px;
     display: flex;
-    align-items: center ;
+    align-items: center;
     justify-content: space-around;
-    gap: 60rem;
+    gap: 49rem;
 }
 
-.Navegador{
+.Navegador {
     display: flex;
     align-items: center;
+    gap: 15px;
 }
 
-h2{
-  text-align: center;    
+h2 {
+    text-align: center;
 }
 
-.btn-mode{
+.btn-mode {
     background-color: #545969;
     color: white;
     font-size: 30px;
@@ -39,4 +40,7 @@ h2{
     border-radius: 7px;
     width: 4%;
     height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

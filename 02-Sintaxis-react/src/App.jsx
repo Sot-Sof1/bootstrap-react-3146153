@@ -6,8 +6,66 @@ import { ExtensionCard } from './components/ExtensionCard'
 export const App = () => {
   return (
     <>
-     <NavBar/>
-     <ExtensionCard/>
+      <NavBar />
+      <div className='contenedorCards'>
+
+
+        <ExtensionCard
+          cardTitle="DevLens"
+          cardImage="./public/logo-devlens.svg"
+          cardDescription="Quickly inspect page layouts and visualize element boundaries."
+        />
+
+        <ExtensionCard
+          cardTitle="StyleSpy"
+          cardImage="./public/imagen2.svg"
+          cardDescription="Instantly analyze and copy CSS from any webpage element."
+        />
+
+        <ExtensionCard
+          cardTitle="SpeedBoost"
+          cardImage="./public/imagen3.svg"
+          cardDescription="Optimizes browser resource usage to accelerate page loading."
+        />
+
+        <ExtensionCard
+          cardTitle="JSONWizard"
+          cardImage="./public/imagen4.svg"
+          cardDescription="Formats, validates, and prettifies JSON responses in-browser."
+        />
+
+        <ExtensionCard
+          cardTitle="TabMasterPro"
+          cardImage="./public/imagen5.svg"
+          cardDescription="Organizes browser tabs into groups and sessions."
+        />
+
+        <ExtensionCard
+          cardTitle="ViewportBuddy"
+          cardImage="./public/imagen6.svg"
+          cardDescription="Simulates various screen resolutions directly within."
+        />
+
+        <ExtensionCard
+          cardTitle="Markup Notes"
+          cardImage="./public/imagen7.svg"
+          cardDescription="Enables annotation and notes directly onto webpages."
+        />
+
+        <ExtensionCard
+          cardTitle="GridGuides"
+          cardImage="./public/imagen8.svg"
+          cardDescription="Overlay customizable grids and alignment guides."
+        />
+
+        <ExtensionCard
+          cardTitle="Palette Picker"
+          cardImage="./public/imagen9.svg"
+          cardDescription="Instantly extracts color palettes from any webpage."
+        />
+        
+       
+      </div>
     </>
   )
 }
