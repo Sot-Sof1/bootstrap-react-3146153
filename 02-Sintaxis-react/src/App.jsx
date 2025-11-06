@@ -2,11 +2,13 @@ import React from 'react'
 import "./App.css"
 import { NavBar } from './components/NavBar'
 import { ExtensionCard } from './components/ExtensionCard'
+import { LoginForm } from './components/LoginForm'
 
 export const App = () => {
   return (
     <>
       <NavBar />
+      
       <div className='contenedorCards'>
 
 
@@ -63,9 +65,13 @@ export const App = () => {
           cardImage="./public/imagen9.svg"
           cardDescription="Instantly extracts color palettes from any webpage."
         />
-        
-       
+
       </div>
+
+
+      <LoginForm/>
+
+
     </>
   )
 }
