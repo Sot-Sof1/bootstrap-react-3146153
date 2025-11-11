@@ -9,7 +9,7 @@ export const App = () => {
   return (
     <>
       <NavBar />
-      
+
       <div className='contenedorCards'>
 
 
@@ -70,10 +70,21 @@ export const App = () => {
       </div>
 
 
-      <LoginForm/>
+      <LoginForm />
 
-      <ProductCard/>
-
+      <div className="container">
+        <div className="row">
+          <div className="col-12 col-md-6 col-lg-4">
+            <ProductCard />
+          </div>
+          <div className="col-12 col-md-6 col-lg-4 mt-4 mt-md-0">
+            <ProductCard />
+          </div>
+          <div className="col-12 col-md-12 col-lg-4 mt-4 mt-lg-0">
+            <ProductCard />
+          </div>
+        </div>
+      </div>
 
     </>
   )
