@@ -1,6 +1,5 @@
 import "../styleheets/collage.css"
 
-
 export const Collage = () => {
   return (
     <>
